@@ -926,6 +926,9 @@ docker exec -i moodle_db mysql -u moodleuser -pmoodlepassword moodle < backup_20
 
 คำตอบ:
 ```
+- Image = แม่แบบ (template)
+- Container = ตัวที่รันจริงจาก Image
+- ตัวอย่าง: Image = สูตรอาหาร, Container = จานอาหารที่ทำออกม
 
 ```
 
@@ -933,7 +936,9 @@ docker exec -i moodle_db mysql -u moodleuser -pmoodlepassword moodle < backup_20
 
 คำตอบ:
 ```
-
+- มี 2 ตัว:
+- moodle_app = เว็บ Moodle
+- db = ฐานข้อมูล MySQL/Postgre
 ```
 
 **3. จากการทดลองมีการจัดการ Volume แบบใด มีข้อดีข้อเสียอย่างไร?**
